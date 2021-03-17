@@ -67,6 +67,7 @@ export default class PersonList extends React.Component {
       .then(res => {
         const persons = res.data;
         this.setState({ items : persons});
+        
         console.log(items);
       })
       
