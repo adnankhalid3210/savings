@@ -1,0 +1,12 @@
+.dont-have-txt{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(46, 24, 106);
+    margin-top: 10px;
+    display: block;
+}
+
+.dont-have-txt a{
+    color: #000;
+    margin-left: 5px;
+}
