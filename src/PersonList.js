@@ -51,33 +51,33 @@
 //   }
 // }
 
-import React from 'react';
+// import React from 'react';
 
-import axios from 'axios';
+// import axios from 'axios';
 
-export default class PersonList extends React.Component {
-  state = {
-    persons: [],
-    username: [],
-    items : []
-  }
+// export default class PersonList extends React.Component {
+//   state = {
+//     persons: [],
+//     username: [],
+//     items : []
+//   }
 
-  componentDidMount() {
-    axios.get(`https://jsonplaceholder.typicode.com/users`)
-      .then(res => {
-        const persons = res.data;
-        this.setState({ items : persons});
+//   componentDidMount() {
+//     axios.get(`https://jsonplaceholder.typicode.com/users`)
+//       .then(res => {
+//         const persons = res.data;
+//         this.setState({ items : persons});
         
-        console.log(items);
-      })
+//         console.log(items);
+//       })
       
-  }
+//   }
 
-  render() {
-    return (
-      <ul>
-       {<li>{this.state.items.length >0 ?this.state.items[0].username:null}</li>}
-      </ul>
-    )
-  }
-}
+//   render() {
+//     return (
+//       <ul>
+//        {<li>{this.state.items.length >0 ?this.state.items[0].username:null}</li>}
+//       </ul>
+//     )
+//   }
+// }

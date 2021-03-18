@@ -14,6 +14,8 @@ import Home from './Home';
 import SignIn from './SignIn/SignIn';
 import SignUp from './SignUp/SignUp';
 import PersonList from "./PersonList";
+import Projects from "./Projects/Projects";
+import AddProjects from "./AddProjects/AddProjects";
 
 function App() {
   return (
@@ -39,6 +41,12 @@ function App() {
         </Route>
         <Route path="/person-list" component={PersonList}>
           <PersonList />
+        </Route>
+        <Route path="/projects" component={Projects}>
+          <Projects />
+        </Route>
+        <Route path="/addprojects" component={AddProjects}>
+          <AddProjects />
         </Route>
       </Switch>
     </div>
